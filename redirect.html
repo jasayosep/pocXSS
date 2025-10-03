@@ -1,8 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Redirect dengan JavaScript</title>
+  <script>
+    // Redirect otomatis setelah 3 detik
+    setTimeout(function(){
+      window.location.href = "https://www.google.com";
+    }, 3000);
+  </script>
 </head>
 <body>
-<iframe src=file:///etc/passwd></iframe>
+  <p>Anda akan diarahkan ke Google dalam 3 detik...</p>
 </body>
 </html>
